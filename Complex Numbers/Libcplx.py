@@ -3,26 +3,26 @@ import math
 def sumaC(a=[], b=[]):
     real = a[0]+b[0]
     imaginario = a[1]+b[1]
-    return (round(real,1), round(imaginario,1))
+    return (round(real,4), round(imaginario,4))
 
 def restaC(a=[], b=[]):
     real = a[0]-b[0]
     imaginario = a[1]-b[1]
-    return (round(real,1), round(imaginario,1))
+    return (round(real,4), round(imaginario,4))
 
 def multiplicacionC(a=[], b=[]):
     real = a[0]*b[0] - a[1]*b[1]
     imaginario = a[0]*b[1] + b[0]*a[1]
-    return (round(real,1), round(imaginario,1))
+    return (round(real,4), round(imaginario,4))
 
 def divisionC(a=[], b=[]):
     denominador = (b[0]**2) + (b[1]**2)
     real = ((a[0]*b[0])+(a[1]*b[1]))/denominador
     imaginario = ((b[0]*a[1])-(a[0]*b[1]))/denominador
-    return (round(real,1), round(imaginario,1))
+    return (round(real,4), round(imaginario,4))
 
 def moduloC(a=[]):
-    real = math.sqrt((a[0]**2)+(a[1]**2))
+    real = round(math.sqrt((a[0]**2)+(a[1]**2)), 4)
     return real
 
 def conjugadoC(a=[]):
@@ -32,7 +32,7 @@ def CVR(a=[], modelo=""):
     if modelo.lower()=="cartesiano":
         real = a[0] * math.cos(a[1])
         imaginario = a[0] * math.sin(a[1])
-        return (round(real,1), round(imaginario,1))
+        return (round(real,4), round(imaginario,4))
     elif modelo.lower()=="polar":
         rho = moduloC(a)
         tetha = fase(a)
@@ -40,7 +40,7 @@ def CVR(a=[], modelo=""):
     raise Exception("Solo se puede hacer conversiones polares o cartesiano")
     
 def fase(a=[]):
-    return math.atan(a[1]/a[0])
+    return round(math.atan(a[1]/a[0]), 4)
 
 def prettyPrinting(real, imaginario):
     if imaginario < 0:    

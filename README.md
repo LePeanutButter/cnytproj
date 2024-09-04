@@ -18,5 +18,34 @@ Este archivo proporciona pruebas unitarias para verificar el funcionamiento corr
 ### Instrucciones
 Para ejecutar los archivos Python proporcionados en este repositorio, sigue estos pasos: Asegúrate de que los archivos Libcplx.py y Testlibcpx.py estén en el mismo directorio para que el script pueda encontrar todos los recursos necesarios. Abre una terminal o línea de comandos y navega hasta la carpeta donde se encuentran los archivos. Luego, ejecuta el archivo Testlibcplx.py
 
+# Jupyter Weekly Assignments
+Esta carpeta contiene los talleres semanales correspondientes a la materia de CNYT (Ciencias Naturales y Tecnologia). El propósito de estos talleres es proporcionar prácticas para mejorar el manejo de herramientas y conceptos clave en el campo de la computación cuantica.
+
+## Contenido de la Carpeta "Jupiter Weekly Assignments"
+1. **ComplexIntro.ipynb**
+Propósito: Practicar funciones básicas y operaciones con números complejos. Este archivo incluye ejercicios para operar y graficar números complejos en un plano complejo.
+2. **Complex_Vector_Matrix_Operations_with_NumPy.ipynb**
+Propósito: Realizar operaciones sobre matrices y vectores columna utilizando la biblioteca NumPy. Incluye ejercicios para la manipulación y cálculo de matrices y vectores.
+3. **TallerEsp.Vect-ProdInterno-VectoPropios**
+Propósito: Calcular productos internos, valores propios y vectores propios de matrices.
+4. **TallerEsp.Vect-Hermitian-Unitary-Tensor-Circuits**
+Propósito: Aplicar los conceptos anteriores en sistemas cuánticos. Incluye ejercicios sobre matrices Hermitianas, operaciones unitarias, y circuitos.
+
+### Instrucciones
+1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.
+Activa el entorno virtual:
+- En Windows:
+```
+.venv\Scripts\activate
+```
+- En macOS y Linux:
+```
+source .venv/bin/activate
+```
+2. Instalación de Dependencias: Una vez activado el entorno virtual, instala las dependencias necesarias usando el siguiente comando:
+```
+pip install numpy matplotlib ipywidgets
+```
+
 # Autores
 **Santiago Botero** - [LePeanutButter](https://github.com/LePeanutButter)

@@ -47,5 +47,28 @@ source .venv/bin/activate
 pip install numpy matplotlib ipywidgets
 ```
 
+# Classic To Quantum
+Los sistemas discretos clásicos se caracterizan por tener un número finito de estados posibles, permitiendo el uso de herramientas estadísticas para predecir resultados. En contraste, el experimento de la doble rendija revela la naturaleza probabilística de las partículas
+
+## Contenido de la Carpeta "Classic To Quantum"
+**TallerClasicToQuantum.ipynb**
+Propósito: Implementar sistemas discretos en un problema de doble rendija probabilístico y calcular las probabilidades de cada estado.
+
+### Instrucciones
+1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.
+Activa el entorno virtual:
+- En Windows:
+```
+.venv\Scripts\activate
+```
+- En macOS y Linux:
+```
+source .venv/bin/activate
+```
+2. Instalación de Dependencias: Una vez activado el entorno virtual, instala las dependencias necesarias usando el siguiente comando:
+```
+pip install numpy matplotlib
+```
+
 # Autores
 **Santiago Botero** - [LePeanutButter](https://github.com/LePeanutButter)

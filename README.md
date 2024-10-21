@@ -78,41 +78,40 @@ Los observables son magnitudes físicas que pueden medirse debido a su naturalez
 Propósito:Implementar conceptos de teoría cuántica enfocándose en el cálculo de observables, así como en el análisis del impacto de las mediciones en los estados cuánticos.
 
 ### Ejercicio 4.5.2
-Write down the generic state vector for the system of two particles
-with spin. Generalize it to a system with n particles (this is important: it will be the
-physical realization for quantum registers!).
----
+Write down the generic state vector for the system of two particles with spin. Generalize it to a system with n particles (this is important: it will be the physical realization for quantum registers!).
+___
 Los estados básicos de una partícula con spin son:
 
-- $$\( | \uparrow \rangle \)$$
-- $$\( | \downarrow \rangle \)$$
+- $$\ | \uparrow \rangle \$$
+- $$\ | \downarrow \rangle \$$
 
 Al ensamblar un sistema cuántico de dos partículas, se obtiene el producto tensor entre cada estado:
 
-- $$\( | \uparrow \rangle \otimes | \uparrow \rangle \)$$
-- $$\( | \uparrow \rangle \otimes | \downarrow \rangle \)$$
-- $$\( | \downarrow \rangle \otimes | \uparrow \rangle \)$$
-- $$\( | \downarrow \rangle \otimes | \downarrow \rangle \)$$
+- $$\ | \uparrow \rangle \otimes | \uparrow \rangle \$$
+- $$\ | \uparrow \rangle \otimes | \downarrow \rangle \$$
+- $$\ | \downarrow \rangle \otimes | \uparrow \rangle \$$
+- $$\ | \downarrow \rangle \otimes | \downarrow \rangle \$$
 
 Estos estados se pueden expresar como una combinación lineal con sus coeficientes:
 
-$$\[
-| \Psi \rangle = a_{11} | \uparrow \uparrow \rangle + a_{12} | \uparrow \downarrow \rangle + a_{21} | \downarrow \uparrow \rangle + a_{22} | \downarrow \downarrow \rangle
-\]$$
+$$\| \Psi \rangle = a_{11} | \uparrow \uparrow \rangle + a_{12} | \uparrow \downarrow \rangle + a_{21} | \downarrow \uparrow \rangle + a_{22} | \downarrow \downarrow \rangle\$$
 
-Analizando esta ecuación, se puede inducir que se ajusta a la forma $$\( 2^n \)$$, donde $$\( n \)$$ es el número de partículas en el sistema.
+Analizando esta ecuación, se puede inducir que se ajusta a la forma $$\ 2^n \$$, donde $$\ n \$$ es el número de partículas en el sistema.
 
 
 ### Ejercicio 4.5.3
-Assume the same scenario as in Example 4.5.2 and let
-$$ |\phi\rangle = |x_0\rangle \otimes |y_1\rangle + |x_1\rangle \otimes |y_1\rangle $$
+Assume the same scenario as in Example 4.5.2 and let $$\| \Phi \rangle = |x_{0} \rangle \otimes |y_{1} \rangle + |x_1 \rangle \otimes |y_1 \rangle\$$
 Is this state separable?
----
+___
 Un estado es separable si puede escribirse de la forma:
-$$ |\phi\rangle = |A\rangle \otimes |B\rangle $$
-El producto tensor respeta adición en $$\( \mathbb{V} \)$$ y en $$\( \mathbb{V}' \)$$, esto significa que la formula puede expresarse de la forma:
-$$ |\phi\rangle = |y_1\rangle \otimes (|x_0\rangle + |x_1\rangle) $$
-Esto significa que este estado es separable para este sistema no trivial de dos particulas.
+
+$$\| \phi\rangle = |A\rangle \otimes |B\rangle \$$
+
+El producto tensor respeta adición en $$\ \mathbb{V} \$$ y en $$\ \mathbb{V}' \$$, esto significa que la formula puede expresarse de la forma:
+
+$$\ |\phi\rangle = |y_1\rangle \otimes (|x_0\rangle + |x_1\rangle) \$$
+
+Esto significa que este estado es separable en un sistema no trivial de dos particulas.
 
 ### Instrucciones
 1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.

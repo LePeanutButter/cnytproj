@@ -1,133 +1,139 @@
 # Complex Numbers
-Los números complejos son una extensión de los números reales y se representan en la forma 𝑎+𝑏𝑖, donde 𝑎 y 𝑏 son números reales e 𝑖 es la unidad imaginaria que satisface la ecuación 𝑖²=−1. Estos números son fundamentales en la computación cuántica.
+Complex numbers are an extension of real numbers and are represented in the form 𝑎+𝑏𝑖, where 𝑎 and 𝑏 are real numbers and 𝑖 is the imaginary unit that satisfies the equation 𝑖²=−1. These numbers are fundamental in quantum computing.
 
-## Contenido de la Carpeta "Complex Numbers"
+## Contents of the "Complex Numbers" Folder
 1. **Libcplx.py**: 
-Este archivo contiene una biblioteca en Python con ocho operaciones esenciales para trabajar con números complejos:
-* Suma: Realiza la adición de dos números complejos.
-* Resta: Calcula la diferencia entre dos números complejos.
-* Multiplicación: Multiplica dos números complejos.
-* División: Divide un número complejo por otro.
-* Módulo: Calcula la magnitud o módulo de un número complejo.
-* Conjugado: Determina el conjugado de un número complejo.
-* Conversión Polar y Cartesiana: Permite convertir entre las formas polar y cartesiana de un número complejo.
-* Fase: Calcula el ángulo de fase de un número complejo.
-2. **Testlibcpx.py**:
-Este archivo proporciona pruebas unitarias para verificar el funcionamiento correcto de las funciones implementadas en Libcplx.py. Las pruebas aseguran que las operaciones con números complejos se realicen de manera precisa y confiable.
+This file contains a Python library with eight essential operations for working with complex numbers:
+* Addition: Performs the addition of two complex numbers.
+* Subtraction: Calculates the difference between two complex numbers.
+* Multiplication: Multiplies two complex numbers.
+* Division: Divides one complex number by another.
+* Modulus: Calculates the magnitude or modulus of a complex number.
+* Conjugate: Determines the conjugate of a complex number.
+* Polar and Cartesian Conversion: Allows conversion between the polar and Cartesian forms of a complex number.
+* Phase: Calculates the phase angle of a complex number.
 
-### Instrucciones
-Para ejecutar los archivos Python proporcionados en este repositorio, sigue estos pasos: Asegúrate de que los archivos Libcplx.py y Testlibcpx.py estén en el mismo directorio para que el script pueda encontrar todos los recursos necesarios. Abre una terminal o línea de comandos y navega hasta la carpeta donde se encuentran los archivos. Luego, ejecuta el archivo Testlibcplx.py
+2. **Testlibcpx.py**:
+This file provides unit tests to verify the correct functionality of the functions implemented in Libcplx.py. The tests ensure that operations with complex numbers are performed accurately and reliably.
+
+### Instructions
+To run the Python files provided in this repository, follow these steps:  
+Ensure that the Libcplx.py and Testlibcpx.py files are in the same directory so the script can find all necessary resources.  
+Open a terminal or command line and navigate to the folder where the files are located.  
+Then, run the Testlibcplx.py file.
 
 # Jupyter Weekly Assignments
-Esta carpeta contiene los talleres semanales correspondientes a la materia de CNYT (Ciencias Naturales y Tecnologia). El propósito de estos talleres es proporcionar prácticas para mejorar el manejo de herramientas y conceptos clave en el campo de la computación cuantica.
+This folder contains the weekly workshops corresponding to the subject CNYT (Natural Sciences and Technology). The purpose of these workshops is to provide practice to improve the handling of key tools and concepts in the field of quantum computing.
 
-## Contenido de la Carpeta "Jupiter Weekly Assignments"
-1. **ComplexIntro.ipynb**
-Propósito: Practicar funciones básicas y operaciones con números complejos. Este archivo incluye ejercicios para operar y graficar números complejos en un plano complejo.
-2. **Complex_Vector_Matrix_Operations_with_NumPy.ipynb**
-Propósito: Realizar operaciones sobre matrices y vectores columna utilizando la biblioteca NumPy. Incluye ejercicios para la manipulación y cálculo de matrices y vectores.
-3. **TallerEsp.Vect-ProdInterno-VectoPropios**
-Propósito: Calcular productos internos, valores propios y vectores propios de matrices.
-4. **TallerEsp.Vect-Hermitian-Unitary-Tensor-Circuits**
-Propósito: Aplicar los conceptos anteriores en sistemas cuánticos. Incluye ejercicios sobre matrices Hermitianas, operaciones unitarias, y circuitos.
+## Contents of the "Jupyter Weekly Assignments" Folder
+1. **ComplexIntro.ipynb**  
+Purpose: Practice basic functions and operations with complex numbers. This file includes exercises to operate and plot complex numbers in the complex plane.
 
-### Instrucciones
-1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.
-Activa el entorno virtual:
-- En Windows:
+2. **Complex_Vector_Matrix_Operations_with_NumPy.ipynb**  
+Purpose: Perform operations on matrices and column vectors using the NumPy library. Includes exercises for manipulating and calculating matrices and vectors.
+
+3. **TallerEsp.Vect-ProdInterno-VectoPropios**  
+Purpose: Calculate inner products, eigenvalues, and eigenvectors of matrices.
+
+4. **TallerEsp.Vect-Hermitian-Unitary-Tensor-Circuits**  
+Purpose: Apply the above concepts to quantum systems. Includes exercises on Hermitian matrices, unitary operations, and circuits.
+
+### Instructions
+1. Environment Setup: Make sure you have a Python 3.12.0 virtual environment configured.  
+Activate the virtual environment:  
+- On Windows:
 ```
 .venv\Scripts\activate
 ```
-- En macOS y Linux:
+- On macOS and Linux:
 ```
 source .venv/bin/activate
 ```
-2. Instalación de Dependencias: Una vez activado el entorno virtual, instala las dependencias necesarias usando el siguiente comando:
+
+2. Install Dependencies: Once the virtual environment is activated, install the necessary dependencies using the following command:
 ```
 pip install numpy matplotlib ipywidgets
 ```
 
 # Classic To Quantum
-Los sistemas discretos clásicos se caracterizan por tener un número finito de estados posibles, permitiendo el uso de herramientas estadísticas para predecir resultados. En contraste, el experimento de la doble rendija revela la naturaleza probabilística de las partículas
+Classical discrete systems are characterized by having a finite number of possible states, allowing the use of statistical tools to predict outcomes. In contrast, the double-slit experiment reveals the probabilistic nature of particles.
 
-## Contenido de la Carpeta "Classic To Quantum"
-**TallerClasicToQuantum.ipynb**
-Propósito: Implementar sistemas discretos en un problema de doble rendija probabilístico y calcular las probabilidades de cada estado.
+## Contents of the "Classic To Quantum" Folder
+**TallerClasicToQuantum.ipynb**  
+Purpose: Implement discrete systems in a probabilistic double-slit problem and calculate the probabilities of each state.
 
-### Instrucciones
-1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.
-Activa el entorno virtual:
-- En Windows:
+### Instructions
+1. Environment Setup: Make sure you have a Python 3.12.0 virtual environment configured.  
+Activate the virtual environment:  
+- On Windows:
 ```
 .venv\Scripts\activate
 ```
-- En macOS y Linux:
+- On macOS and Linux:
 ```
 source .venv/bin/activate
 ```
-2. Instalación de Dependencias: Una vez activado el entorno virtual, instala las dependencias necesarias usando el siguiente comando:
+
+2. Install Dependencies: Once the virtual environment is activated, install the necessary dependencies using the following command:
 ```
 pip install numpy matplotlib
 ```
 
 # Basic Quantum Theory, Observables and Measurements
-Los observables son magnitudes físicas que pueden medirse debido a su naturaleza probabilística, definición de estados e interacción con el entorno.
+Observables are physical quantities that can be measured due to their probabilistic nature, definition of states, and interaction with the environment.
 
-## Contenido de la Carpeta "Basic Quantum Theory, Observables and Measurements"
-**Quantum.ipynb**
-Propósito:Implementar conceptos de teoría cuántica enfocándose en el cálculo de observables, así como en el análisis del impacto de las mediciones en los estados cuánticos.
+## Contents of the "Basic Quantum Theory, Observables and Measurements" Folder
+**Quantum.ipynb**  
+Purpose: Implement concepts from quantum theory focusing on the calculation of observables and the analysis of the impact of measurements on quantum states.
 
-### Ejercicio 4.5.2
+### Exercise 4.5.2
 Write down the generic state vector for the system of two particles with spin. Generalize it to a system with n particles (this is important: it will be the physical realization for quantum registers!).
-___
-Los estados básicos de una partícula con spin son:
 
+The basic states of a particle with spin are:
 - $$\ | \uparrow \rangle \$$
 - $$\ | \downarrow \rangle \$$
 
-Al ensamblar un sistema cuántico de dos partículas, se obtiene el producto tensor entre cada estado:
-
+Assembling a quantum system of two particles results in the tensor product between each state:
 - $$\ | \uparrow \rangle \otimes | \uparrow \rangle \$$
 - $$\ | \uparrow \rangle \otimes | \downarrow \rangle \$$
 - $$\ | \downarrow \rangle \otimes | \uparrow \rangle \$$
 - $$\ | \downarrow \rangle \otimes | \downarrow \rangle \$$
 
-Estos estados se pueden expresar como una combinación lineal con sus coeficientes:
+These states can be expressed as a linear combination with their coefficients:
 
 $$\| \Psi \rangle = a_{11} | \uparrow \uparrow \rangle + a_{12} | \uparrow \downarrow \rangle + a_{21} | \downarrow \uparrow \rangle + a_{22} | \downarrow \downarrow \rangle\$$
 
-Analizando esta ecuación, se puede inducir que se ajusta a la forma $$\ 2^n \$$, donde $$\ n \$$ es el número de partículas en el sistema.
+Analyzing this equation, it can be inferred that it fits the form $$\ 2^n \$$, where $$\ n \$$ is the number of particles in the system.
 
-
-### Ejercicio 4.5.3
-Assume the same scenario as in Example 4.5.2 and let $$\| \Phi \rangle = |x_{0} \rangle \otimes |y_{1} \rangle + |x_1 \rangle \otimes |y_1 \rangle\$$
+### Exercise 4.5.3
+Assume the same scenario as in Example 4.5.2 and let  
+$$\| \Phi \rangle = |x_{0} \rangle \otimes |y_{1} \rangle + |x_1 \rangle \otimes |y_1 \rangle\$$  
 Is this state separable?
-___
-Un estado es separable si puede escribirse de la forma:
 
+A state is separable if it can be written in the form:  
 $$\| \phi\rangle = |A\rangle \otimes |B\rangle \$$
 
-El producto tensor respeta adición en $$\ \mathbb{V} \$$ y en $$\ \mathbb{V}' \$$, esto significa que la formula puede expresarse de la forma:
-
+The tensor product respects addition in $$\ \mathbb{V} \$$ and in $$\ \mathbb{V}' \$$, which means the formula can be expressed as:  
 $$\ |\phi\rangle = |y_1\rangle \otimes (|x_0\rangle + |x_1\rangle) \$$
 
-Esto significa que este estado es separable en un sistema no trivial de dos particulas.
+This means that this state is separable in a non-trivial system of two particles.
 
-### Instrucciones
-1. Configuración del Entorno: Asegúrate de tener un entorno virtual Python 3.12.0 configurado.
-Activa el entorno virtual:
-- En Windows:
+### Instructions
+1. Environment Setup: Make sure you have a Python 3.12.0 virtual environment configured.  
+Activate the virtual environment:  
+- On Windows:
 ```
 .venv\Scripts\activate
 ```
-- En macOS y Linux:
+- On macOS and Linux:
 ```
 source .venv/bin/activate
 ```
-2. Instalación de Dependencias: Una vez activado el entorno virtual, instala las dependencias necesarias usando el siguiente comando:
+
+2. Install Dependencies: Once the virtual environment is activated, install the necessary dependencies using the following command:
 ```
 pip install numpy matplotlib
 ```
 
-# Autores
+# Authors
 **Santiago Botero** - [LePeanutButter](https://github.com/LePeanutButter)
